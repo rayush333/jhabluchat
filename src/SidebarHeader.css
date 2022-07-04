@@ -1,0 +1,19 @@
+.sidebar_header
+{
+    display: flex;
+    padding: 5px 10px;
+}
+.sidebar_header_left
+{
+    flex: 0.5;
+}
+.sidebar_header_right
+{
+    display: flex;
+    padding: 10px 0;
+    justify-content: right;
+    flex: 0.5;
+}
+.sidebar_header_right .MuiSvgIcon-root {
+    font-size: 24px !important;
+}
